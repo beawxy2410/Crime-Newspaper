@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F1E8;
+}
+
+header{
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 400;
+    border-top: 2px solid #9F0101;
+    padding-bottom: 10px; 
+}
+
+h1 a{
+    text-decoration: none;
+    color: #9F0101;
+    font-size: 80px;
+}
+header ol{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 26px;
+    border-bottom: 1px solid red;
+    padding: 20px 0;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+header nav ol a{
+    text-decoration: none;
+    color: #E53838;
+    font-size: 22px;
+}
+
+main{
+    max-width: 90%;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 52px;
+    text-align: justify;
+    max-width: 80%;
+    margin: 20px auto;
+    color: #9F0101;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+#migalha{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #595959;
+    font-size: 22px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid red;
+}
+
+#migalha a{
+    text-decoration: none;
+    color: #595959;
+    margin-left: 20px;
+}
+
+
+#subtitulo{
+    font-size: 22px;
+    text-align: justify;
+    max-width: 80%;
+    margin: 20px auto;
+    color: #5C5C5C;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+    
+
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 800px; 
+  position: relative;
+  margin: auto;
+  height: 400px; 
+  overflow: hidden; 
+  margin-top: 70px;
+}
+
+.mySlides img {
+  width: 100%; 
+  height: 400px; 
+  object-fit: cover;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+h3{
+    font-size:45px ;
+    color: #9F0101;
+    text-align: justify;
+    max-width: 80%;
+    margin: 20px auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+article p{
+    font-size: 24px;
+    text-align: justify;
+    max-width: 80%;
+    margin: 20px auto;
+    margin-bottom: 40px;
+
+}
+
+footer {
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1em 0;
+}
+
+.topo h4 {
+    font-size: 24px;
+    color: #9F0101;
+    margin-left:70px;
+}
+
+.topo a{
+    text-decoration: none;
+    color: #9F0101;
+}
+
+.social-icons {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-right:70px;
+}
+
+.social-icons img {
+    width: 40px;
+    height:30px;
+    
+}
+
+.linha {
+    max-width: 90%;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.fundo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1em 0;
+    margin-top:10px;
+}
+
+.fundo ol {
+    display: flex;
+    list-style-type: none;
+    gap: 30px; 
+    margin-left: 70px;
+}
+
+.fundo ol li a{
+    font-size:18px;
+    text-decoration: none;
+    color: #E53838;
+}
+
+.fundo p {
+    font-size: 14px;
+    margin-right:100px;
+    color: #393838;
+}
+
+

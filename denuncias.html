@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Denúncias</title>
+        <link rel="stylesheet" href="css/denuncias.css" />
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Crime Newspaper</a></h1>
+            <img class="linha" src="icons/linha.png" alt="linha">
+            <nav>
+                <ol>
+                    <li><a href="crimes_passionais.html">Crimes passionais</a></li>
+                    <li><a href="assassinatos_em_serie.html">Assassinatos em série</a></li>
+                    <li><a href="sequestros.html">Sequestros</a></li>
+                    <li><a href="massacres.html">Massacres</a></li>
+                    <li><a href="grandes_roubos.html">Grandes roubos</a></li>
+                    <li><a href="denuncias.html">Denúncias</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Pessoas Desaparecidas</h2>
+                <p id="subtitulo">
+                    A cada segundo que passa, a esperança se mantém firme. Juntos, podemos fazer a diferença e <br>
+                    ajudar a trazer aqueles que estão desaparecidos de volta para casa. A união faz a força, e sua <br>
+                    colaboração pode ser crucial para salvar vidas. Vamos nos unir por aqueles que precisam de nós!
+                </p>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imagens/photo1.png" alt="João Silva do Carmo">
+                    </div>
+                    <div class="card-content">
+                        <h3>João Silva do Carmo</h3>
+                        <ul>
+                            <li><span class="info">Idade:</span> <span class="detail">34 anos</span></li>
+                            <li><span class="info">Data e Local do Desaparecimento:</span> <span class="detail">07 de fevereiro de 2025, Rio de Janeiro - RJ</span></li>
+                            <li><span class="info">Características Físicas:</span> <span class="detail">Altura 1,78m, cabelo preto curto, olhos castanhos, pele morena.</span></li>
+                            <li><span class="info">Última vez visto usando:</span> <span class="detail">Camisa vermelha, calça jeans e tênis brancos.</span></li>
+                            <li><span class="info">Contato com a família ou autoridades:</span> <span class="detail">Maria Silva (Mãe) - (21) 98765-4321</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imagens/photo2.png" alt="Ana Luísa Alcântara">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ana Luísa Alcântara</h3>
+                        <ul>
+                            <li><span class="info">Idade:</span> <span class="detail">14 anos</span></li>
+                            <li><span class="info">Data e Local do Desaparecimento:</span> <span class="detail">23 de Agosto, Uberlândia - MG</span></li>
+                            <li><span class="info">Características Físicas:</span> <span class="detail">Altura 1,56m, cabelo curto e preto, olhos castanhos e pele parda.</span></li>
+                            <li><span class="info">Última vez visto usando:</span> <span class="detail">Blusa azul, shorts jeans e sandálias.</span></li>
+                            <li><span class="info">Contato com a família ou autoridades:</span> <span class="detail">Reinaldo (Pai) - (31) 97465-5469</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imagens/photo3.png" alt="Ana de Souza Lima">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ana de Souza Lima</h3>
+                        <ul>
+                            <li><span class="info">Idade:</span> <span class="detail">27 anos</span></li>
+                            <li><span class="info">Data e Local do Desaparecimento:</span> <span class="detail">09 de fevereiro de 2025, São Paulo - SP</span></li>
+                            <li><span class="info">Características Físicas:</span> <span class="detail">Altura 1,65m, cabelo longo e castanho, olhos pretos, pele morena.</span></li>
+                            <li><span class="info">Última vez visto usando:</span> <span class="detail">Blusa preta, saia jeans e sapatilhas.</span></li>
+                            <li><span class="info">Contato com a família ou autoridades:</span> <span class="detail">João Souza (Pai) - (11) 98765-1234</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+    
+            <section class="denuncias">
+                <h2>Fale Conosco - Sugestões e Denúncias</h2>
+                <p id="subtitulo">
+                    Denunciar crimes e atividades suspeitas ajuda a garantir segurança e justiça, assim como suas sugestões <br>
+                    melhoram nosso site. Sua participação faz a diferença, colabore para um ambiente mais seguro e eficiente!
+                </p>
+            
+                <div id="main">
+                    <div id="formulario">
+                        <form action="denuncia_enviada.html">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="pnome">Primeiro nome:</label>
+                                    <input type="text" id="pnome" placeholder="Digite seu primeiro nome" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="unome">Último nome:</label>
+                                    <input type="text" id="unome" placeholder="Digite seu último nome" />
+                                </div>
+                            </div>
+            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="text" id="email" placeholder="Digite seu E-mail" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="fone">Telefone:</label>
+                                    <input type="text" id="fone" placeholder="Digite seu telefone" />
+                                </div>
+                            </div>
+            
+                            <div class="form-group">
+                                <label for="sugestao">Mensagem de sugestão:</label>
+                                <textarea id="sugestao" name="textarea" placeholder="Digite sua mensagem de sugestão para o nosso site"></textarea>
+                            </div>
+            
+                            <div class="form-group">
+                                <input type="submit" value="ENVIAR" />
+                            </div>
+                        </form>
+                    </div>
+            
+                    <div id="contato">
+                        <ol>
+                            <li>Polícia Militar (Emergências)</li>
+                            <li>
+                                <img src="icons/Call.png" alt="telefone" />
+                                <p>+190</p>
+                            </li>
+                            <li>Disque Denúncia Nacional (Denúncia anônima de crimes em geral)</li>
+                            <li>
+                                <img src="icons/Call.png" alt="telefone" />
+                                <p>+181</p>
+                            </li>
+                            <li>Polícia Federal (Caso envolva crimes cibernéticos, corrupção, tráfico internacional)</li>
+                            <li>
+                                <img src="icons/Call.png" alt="telefone" />
+                                <p>+194</p>
+                            </li>
+                            <li>Ministério Público (Para denúncias de corrupção, crimes ambientais, direitos humanos)</li>
+                            <li>
+                                <img src="icons/Call.png" alt="telefone" />
+                                <p>+127</p>
+                            </li>
+                            <li>Delegacia da Mulher (Para casos de violência doméstica e abuso)</li>
+                            <li>
+                                <img src="icons/Call.png" alt="telefone" />
+                                <p>+180</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <nav class="topo">
+                <h4><a href="index.html">Crime Newspaper</a></h4>
+                <ul class="social-icons">
+                    <li><a href="#"><img class="social" src="icons/Linkedin.svg" alt="Linkedin"/></a></li>
+                    <li><a href="#"><img class="social" src="icons/Facebook.svg" alt="Facebook"/></a></li>
+                    <li><a href="#"><img class="social" src="icons/Twitter.svg" alt="Twitter"/></a></li>
+                    <li><a href="#"><img class="social" src="icons/Instagram.svg" alt="Instagram"/></a></li>
+                </ul>
+            </nav>
+            <img class="linha" src="icons/linha.png" alt="linha">
+            <nav class="fundo">
+                <ol>
+                    <li><a href="crimes_passionais.html">Crimes passionais</a></li>
+                    <li><a href="assassinatos_em_serie.html">Assassinatos em série</a></li>
+                    <li><a href="sequestros.html">Sequestros</a></li>
+                    <li><a href="massacres.html">Massacres</a></li>
+                    <li><a href="grandes_roubos.html">Grandes roubos</a></li>
+                    <li><a href="denuncias.html">Denúncias</a></li>
+                </ol>
+                <p>Desenvolvido pelo IFRN </p>
+            </nav>
+        </footer>
+    </body>
+</html>
